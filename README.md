@@ -77,8 +77,8 @@ What this means, without spin:
 Requirements: Python 3.11–3.13, ~2 GB disk for dependencies. Apple-silicon (MPS), CUDA or CPU all work.
 
 ```bash
-git clone https://github.com/saharsh-lab/ATM-threat-detection-system.git
-cd ATM-threat-detection-system
+git clone https://github.com/saharsh-lab/SentinelX.git
+cd SentinelX
 python3 -m venv .venv && source .venv/bin/activate
 pip install -r requirements-local.txt          # full stack (requirements.txt is the Flask-only Vercel build)
 
